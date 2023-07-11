@@ -1,0 +1,238 @@
+[
+  {
+    "name": "Ryze",
+    "cost": 5
+  },
+  {
+    "name": "Aatrox",
+    "cost": 5
+  },
+  {
+    "name": "Heimerdinger",
+    "cost": 5
+  },
+  {
+    "name": "Belveth",
+    "cost": 5
+  },
+  {
+    "name": "Sion",
+    "cost": 5
+  },
+  {
+    "name": "Ahri",
+    "cost": 5
+  },
+  {
+    "name": "Senna",
+    "cost": 5
+  },
+  {
+    "name": "K'Sante",
+    "cost": 5
+  },
+  {
+    "name": "Kaisa",
+    "cost": 4
+  },
+  {
+    "name": "Gwen",
+    "cost": 4
+  },
+  {
+    "name": "Nasus",
+    "cost": 4
+  },
+  {
+    "name":"Yasuo",
+    "cost": 4
+  },
+  {
+    "name": "Jarvan IV",
+    "cost": 4
+  },
+  {
+    "name": "Azir",
+    "cost": 4
+  },
+  {
+    "name": "Shen",
+    "cost": 4
+  },
+  {
+    "name": "Lux",
+    "cost": 4
+  },
+  {
+    "name": "Sejuani",
+    "cost": 4
+  },
+  {
+    "name": "Aphelios",
+    "cost": 4
+  },
+  {
+    "name": "Urgot",
+    "cost": 4
+  },
+  {
+    "name": "Zeri",
+    "cost": 4
+  },
+  {
+    "name": "Taric",
+    "cost": 3
+  },
+  {
+    "name": "Darius",
+    "cost": 3
+  },
+  {
+    "name": "Kalista",
+    "cost": 3
+  },
+  {
+    "name": "Vel'Koz",
+    "cost": 3
+  },
+  {
+    "name": "Rek'Sai",
+    "cost": 3
+  },
+  {
+    "name": "Katarina",
+    "cost": 3
+  },
+  {
+    "name": "Lissandra",
+    "cost": 3
+  },
+  {
+    "name": "Akshan",
+    "cost": 3
+  },
+  {
+    "name": "Karma",
+    "cost": 3
+  },
+  {
+    "name": "Garen",
+    "cost": 3
+  },
+  {
+    "name": "Sona",
+    "cost": 3
+  },
+  {
+    "name": "Ekko",
+    "cost": 3
+  },
+  {
+    "name": "Jayce",
+    "cost": 3
+  },
+  {
+    "name": "Vi",
+    "cost": 2
+  },
+  {
+    "name": "Soraka",
+    "cost": 2
+  },
+  {
+    "name": "Warwick",
+    "cost": 2
+  },
+  {
+    "name": "Kled",
+    "cost": 2
+  },
+  {
+    "name": "Zed",
+    "cost": 2
+  },
+  {
+    "name": "Teemo",
+    "cost": 2
+  },
+  {
+    "name": "Kassadin",
+    "cost": 2
+  },
+  {
+    "name": "Swain",
+    "cost": 2
+  },
+  {
+    "name": "Taliyah",
+    "cost": 2
+  },
+  {
+    "name": "Ashe",
+    "cost": 2
+  },
+  {
+    "name": "Sett",
+    "cost": 2
+  },
+  {
+    "name": "Galio",
+    "cost": 2
+  },
+  {
+    "name": "Jinx",
+    "cost": 2
+  },
+  {
+    "name": "Tristana",
+    "cost": 1
+  },
+  {
+    "name": "Jhin",
+    "cost": 1
+  },
+  {
+    "name": "Poppy",
+    "cost": 1
+  },
+  {
+    "name": "Maokai",
+    "cost": 1
+  },
+  {
+    "name": "Kayle",
+    "cost": 1
+  },
+  {
+    "name": "Viego",
+    "cost": 1
+  },
+  {
+    "name": "Renekton",
+    "cost": 1
+  },
+  {
+    "name": "Cassiopeia",
+    "cost": 1
+  },
+  {
+    "name": "Samira",
+    "cost": 1
+  },
+  {
+    "name": "Cho'Gath",
+    "cost": 1
+  },
+  {
+    "name": "Irelia",
+    "cost": 1
+  },
+  {
+    "name": "Malzahar",
+    "cost": 1
+  },
+  {
+    "name": "Orianna",
+    "cost": 1
+  }
+]
