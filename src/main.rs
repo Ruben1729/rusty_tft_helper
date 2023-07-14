@@ -1,27 +1,19 @@
-use gtk::prelude::*;
-use gtk::{Application, ApplicationWindow, ListBox, WindowType, Label, ListBoxRow};
+extern crate piston_window;
 
-use rusty_tft_helper::champion::ChampionPool;
+use rusty_tft_helper::*;
+use piston_window::*;
 
 fn main() {
-    let application = Application::builder()
-        .application_id("com.example.FirstGtkApp")
-        .build();
-
-    application.connect_activate(|app| {
-        let champion_pool = ChampionPool::new().expect("Unable to load champion pool.");
-
-        let window = ApplicationWindow::builder()
-            .application(app)
-            .title("Rusty TFT Helper")
-            .default_width(1280)
-            .default_height(720)
-            .build();
-
-        champion_pool.render(&window);
-
-        window.show_all();
-    });
-
-    application.run();
+    let engine = TftHelperEngine::new();
+    let mut window: PistonWindow =
+        WindowSettings::new("Hello World!", [512; 2])
+            .build().unwrap();
+    while let Some(e) = window.next() {
+        window.draw_2d(&e, |c, g, _| {
+            clear([0.5, 0.5, 0.5, 1.0], g);
+            rectangle([1.0, 0.0, 0.0, 1.0], // red
+                      [0.0, 0.0, 100.0, 100.0], // rectangle
+                      c.transform, g);
+        });
+    }
 }
